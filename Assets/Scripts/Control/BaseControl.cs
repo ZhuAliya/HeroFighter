@@ -289,7 +289,7 @@ namespace Control
             // 提取升级粒子预设
             GameObject HeroLevelUp = ResourcesMgr.GetInstance().LoadAsset("ParticleProps/Hero_LvUp", true);
             //音效
-            AudioManager.PlayAudioEffectA("LevelUp");
+           AudioManager.PlayAudioEffectA(acLevelUp);
         }
 
     }//Class_end
